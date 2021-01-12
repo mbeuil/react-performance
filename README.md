@@ -1,5 +1,5 @@
 <div>
-  <h1 align="center"><a href="https://epicreact.dev">⚡ React Performance 🚀 EpicReact.Dev</a></h1>
+  <h1 align="center"><a href="https://epicreact.dev/performance">⚡ React Performance 🚀 EpicReact.Dev</a></h1>
   <strong>
     React is fast, until it isn't
   </strong>
@@ -23,7 +23,6 @@
 [![Build Status][build-badge]][build]
 [![All Contributors][all-contributors-badge]](#contributors)
 [![GPL 3.0 License][license-badge]][license]
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![Code of Conduct][coc-badge]][coc]
 <!-- prettier-ignore-end -->
 
@@ -38,7 +37,7 @@
 ## System Requirements
 
 - [git][git] v2.13 or greater
-- [NodeJS][node] `^10.13 || 12 || 14`
+- [NodeJS][node] `^10.13 || 12 || 14 || 15`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -84,6 +83,13 @@ right versions of the requirements listed above, and run the following commands:
 ```
 npm install
 npm run validate
+```
+
+If you are still unable to fix issues and you know how to use Docker 🐳 you can
+setup the project with the following command:
+
+```
+docker-compose up
 ```
 
 It's recommended you run everything locally in the same environment you work in
@@ -163,38 +169,44 @@ Thanks goes to these wonderful people
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://stackshare.io/jdorfman/decisions"><img src="https://avatars1.githubusercontent.com/u/398230?v=4" width="100px;" alt=""/><br /><sub><b>Justin Dorfman</b></sub></a><br /><a href="#fundingFinding-jdorfman" title="Funding Finding">🔍</a></td>
-    <td align="center"><a href="https://bol.vin"><img src="https://avatars2.githubusercontent.com/u/1684826?v=4" width="100px;" alt=""/><br /><sub><b>Frédéric Bolvin</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Fensterbank" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://vojta.io"><img src="https://avatars2.githubusercontent.com/u/25487857?v=4" width="100px;" alt=""/><br /><sub><b>Vojta Holik</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=vojtaholik" title="Code">💻</a> <a href="#design-vojtaholik" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/marcosvega91"><img src="https://avatars2.githubusercontent.com/u/5365582?v=4" width="100px;" alt=""/><br /><sub><b>Marco Moretti</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=marcosvega91" title="Code">💻</a></td>
-    <td align="center"><a href="https://ricardobusquet.com"><img src="https://avatars1.githubusercontent.com/u/7198302?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Busquet</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=rbusquet" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/nywleswoey"><img src="https://avatars3.githubusercontent.com/u/28249994?v=4" width="100px;" alt=""/><br /><sub><b>Selwyn Yeow</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=nywleswoey" title="Code">💻</a></td>
+    <td align="center"><a href="https://kentcdodds.com"><img src="https://avatars.githubusercontent.com/u/1500684?v=3?s=100" width="100px;" alt=""/><br /><sub><b>Kent C. Dodds</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Documentation">📖</a> <a href="#infra-kentcdodds" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=kentcdodds" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://stackshare.io/jdorfman/decisions"><img src="https://avatars1.githubusercontent.com/u/398230?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Justin Dorfman</b></sub></a><br /><a href="#fundingFinding-jdorfman" title="Funding Finding">🔍</a></td>
+    <td align="center"><a href="https://bol.vin"><img src="https://avatars2.githubusercontent.com/u/1684826?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Frédéric Bolvin</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Fensterbank" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://vojta.io"><img src="https://avatars2.githubusercontent.com/u/25487857?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vojta Holik</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=vojtaholik" title="Code">💻</a> <a href="#design-vojtaholik" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/marcosvega91"><img src="https://avatars2.githubusercontent.com/u/5365582?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marco Moretti</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=marcosvega91" title="Code">💻</a></td>
+    <td align="center"><a href="https://ricardobusquet.com"><img src="https://avatars1.githubusercontent.com/u/7198302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ricardo Busquet</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=rbusquet" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nywleswoey"><img src="https://avatars3.githubusercontent.com/u/28249994?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Selwyn Yeow</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=nywleswoey" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/emzoumpo"><img src="https://avatars2.githubusercontent.com/u/2103443?v=4" width="100px;" alt=""/><br /><sub><b>Emmanouil Zoumpoulakis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=emzoumpo" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://peter.hozak.info/"><img src="https://avatars0.githubusercontent.com/u/1087670?v=4" width="100px;" alt=""/><br /><sub><b>Peter Hozák</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Aprillion" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/pritamsangani/"><img src="https://avatars3.githubusercontent.com/u/22857896?v=4" width="100px;" alt=""/><br /><sub><b>Pritam Sangani</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=PritamSangani" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/milamer"><img src="https://avatars2.githubusercontent.com/u/12884134?v=4" width="100px;" alt=""/><br /><sub><b>Christian Schurr</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=milamer" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=milamer" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://magrippis.com"><img src="https://avatars0.githubusercontent.com/u/3502800?v=4" width="100px;" alt=""/><br /><sub><b>Johnny Magrippis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=jmagrippis" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/AhmedAymanM"><img src="https://avatars1.githubusercontent.com/u/535126?v=4" width="100px;" alt=""/><br /><sub><b>Ahmed</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=AhmedAymanM" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=AhmedAymanM" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/RobbertWolfs"><img src="https://avatars2.githubusercontent.com/u/12511178?v=4" width="100px;" alt=""/><br /><sub><b>Robbert Wolfs</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=RobbertWolfs" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/emzoumpo"><img src="https://avatars2.githubusercontent.com/u/2103443?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Emmanouil Zoumpoulakis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=emzoumpo" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://peter.hozak.info/"><img src="https://avatars0.githubusercontent.com/u/1087670?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter Hozák</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Aprillion" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pritamsangani/"><img src="https://avatars3.githubusercontent.com/u/22857896?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritam Sangani</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=PritamSangani" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/milamer"><img src="https://avatars2.githubusercontent.com/u/12884134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christian Schurr</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=milamer" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=milamer" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://magrippis.com"><img src="https://avatars0.githubusercontent.com/u/3502800?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Johnny Magrippis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=jmagrippis" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AhmedAymanM"><img src="https://avatars1.githubusercontent.com/u/535126?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ahmed</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=AhmedAymanM" title="Code">💻</a> <a href="https://github.com/kentcdodds/react-performance/commits?author=AhmedAymanM" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/RobbertWolfs"><img src="https://avatars2.githubusercontent.com/u/12511178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robbert Wolfs</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=RobbertWolfs" title="Documentation">📖</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.gwanduke.com"><img src="https://avatars0.githubusercontent.com/u/7443435?v=4" width="100px;" alt=""/><br /><sub><b>Kim Gwan-duk</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=gwanduke" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://rasmusjosefsson.com"><img src="https://avatars2.githubusercontent.com/u/13612444?v=4" width="100px;" alt=""/><br /><sub><b>Rasmus Josefsson</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=rajjejosefsson" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/MarcosNASA"><img src="https://avatars3.githubusercontent.com/u/45607262?v=4" width="100px;" alt=""/><br /><sub><b>Marcos NASA G</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=MarcosNASA" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Snaptags"><img src="https://avatars1.githubusercontent.com/u/1249745?v=4" width="100px;" alt=""/><br /><sub><b>Markus Lasermann</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Snaptags" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://vk.com/vasilii_kovalev"><img src="https://avatars0.githubusercontent.com/u/10310491?v=4" width="100px;" alt=""/><br /><sub><b>Vasilii Kovalev</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=vasilii-kovalev" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/matchai"><img src="https://avatars0.githubusercontent.com/u/4658208?v=4" width="100px;" alt=""/><br /><sub><b>Matan Kushner</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=matchai" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=MichaelDeBoey" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.gwanduke.com"><img src="https://avatars0.githubusercontent.com/u/7443435?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kim Gwan-duk</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=gwanduke" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://rasmusjosefsson.com"><img src="https://avatars2.githubusercontent.com/u/13612444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rasmus Josefsson</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=rajjejosefsson" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/MarcosNASA"><img src="https://avatars3.githubusercontent.com/u/45607262?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marcos NASA G</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=MarcosNASA" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Snaptags"><img src="https://avatars1.githubusercontent.com/u/1249745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Markus Lasermann</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Snaptags" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://vk.com/vasilii_kovalev"><img src="https://avatars0.githubusercontent.com/u/10310491?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vasilii Kovalev</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=vasilii-kovalev" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/matchai"><img src="https://avatars0.githubusercontent.com/u/4658208?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matan Kushner</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=matchai" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://michaeldeboey.be"><img src="https://avatars3.githubusercontent.com/u/6643991?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michaël De Boey</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=MichaelDeBoey" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://www.veljkoblagojevic.com"><img src="https://avatars2.githubusercontent.com/u/28904821?v=4" width="100px;" alt=""/><br /><sub><b>Veljko Blagojevic</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Wekios" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.veljkoblagojevic.com"><img src="https://avatars2.githubusercontent.com/u/28904821?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Veljko Blagojevic</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Wekios" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://bobbywarner.com"><img src="https://avatars0.githubusercontent.com/u/554961?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bobby Warner</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=bobbywarner" title="Code">💻</a></td>
+    <td align="center"><a href="http://angular-tips.com"><img src="https://avatars2.githubusercontent.com/u/1087957?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jesús Rodríguez</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Foxandxss" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://valentin-hervieu.fr"><img src="https://avatars2.githubusercontent.com/u/2678610?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Valentin Hervieu</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/issues?q=author%3AValentinH" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://davsanchez.com"><img src="https://avatars2.githubusercontent.com/u/2999604?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Sánchez</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=d4vsanchez" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://merott.com"><img src="https://avatars3.githubusercontent.com/u/1757708?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Merott Movahedi</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=Merott" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.arjenbloemsma.nl"><img src="https://avatars1.githubusercontent.com/u/8061052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arjen Bloemsma</b></sub></a><br /><a href="https://github.com/kentcdodds/react-performance/commits?author=arjenbloemsma" title="Documentation">📖</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

@@ -211,6 +211,60 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "bobbywarner",
+      "name": "Bobby Warner",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/554961?v=4",
+      "profile": "http://bobbywarner.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Foxandxss",
+      "name": "Jesús Rodríguez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1087957?v=4",
+      "profile": "http://angular-tips.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "ValentinH",
+      "name": "Valentin Hervieu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2678610?v=4",
+      "profile": "https://valentin-hervieu.fr",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "d4vsanchez",
+      "name": "David Sánchez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2999604?v=4",
+      "profile": "https://davsanchez.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Merott",
+      "name": "Merott Movahedi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1757708?v=4",
+      "profile": "http://merott.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "arjenbloemsma",
+      "name": "Arjen Bloemsma",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8061052?v=4",
+      "profile": "https://www.arjenbloemsma.nl",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoHost": "https://github.com",
